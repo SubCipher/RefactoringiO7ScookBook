@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		183204FE1BB966DB00EAB683 /* KPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183204FD1BB966DB00EAB683 /* KPViewController.m */; };
 		E21D50511BB8B634000B7AB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E21D50501BB8B634000B7AB7 /* main.m */; };
 		E21D50541BB8B634000B7AB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E21D50531BB8B634000B7AB7 /* AppDelegate.m */; };
 		E21D505A1BB8B634000B7AB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21D50581BB8B634000B7AB7 /* Main.storyboard */; };
@@ -36,8 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		183204FC1BB966DB00EAB683 /* KPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPViewController.h; sourceTree = "<group>"; };
-		183204FD1BB966DB00EAB683 /* KPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPViewController.m; sourceTree = "<group>"; };
 		E21D504C1BB8B634000B7AB7 /* Chap1Classes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chap1Classes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21D50501BB8B634000B7AB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E21D50521BB8B634000B7AB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,8 +104,6 @@
 				E21D50521BB8B634000B7AB7 /* AppDelegate.h */,
 				E21D50531BB8B634000B7AB7 /* AppDelegate.m */,
 				E21D50581BB8B634000B7AB7 /* Main.storyboard */,
-				183204FC1BB966DB00EAB683 /* KPViewController.h */,
-				183204FD1BB966DB00EAB683 /* KPViewController.m */,
 				E21D50821BB8B671000B7AB7 /* Person.h */,
 				E21D50831BB8B671000B7AB7 /* Person.m */,
 				E21D505B1BB8B634000B7AB7 /* Assets.xcassets */,
@@ -278,7 +273,6 @@
 				E21D50841BB8B671000B7AB7 /* Person.m in Sources */,
 				E21D50541BB8B634000B7AB7 /* AppDelegate.m in Sources */,
 				E21D50511BB8B634000B7AB7 /* main.m in Sources */,
-				183204FE1BB966DB00EAB683 /* KPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

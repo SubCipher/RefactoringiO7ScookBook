@@ -10,20 +10,6 @@
 
 @implementation Person
 
--(NSString *)WalkWithThisPerson:(NSString *)fName lName:(NSString *)lName {
-    //fName = @"k";
-    //lName = @"picart";
-    
-    Person *person = [[Person alloc]init];
-    person.firstName = fName;
-    person.lastName = lName;
-    
-    [person walkAtKilometersPerHour:3.0f];
-    [person runAt10KilometersPerHour];
-    return 0;
-}
-
-
 
 +(CGFloat)maximumHeightInCentimers{
     return 250.0f;
@@ -33,12 +19,10 @@
 +(CGFloat)minimumHeightInCentimers{
     
     return 40.0f;
-    
 }
 
-
 -(void)walkAtKilometersPerHour:(CGFloat)paramSpeedKilometersPerHour{
-    
+
 }
 
 -(void)runAt10KilometersPerHour{
@@ -48,14 +32,6 @@
 -(void)singSong:(NSData *)paramSongData loudly:(BOOL)paramLoudly{
     
 }
-
-
-
-
-
-
-
-
 
 
 @end

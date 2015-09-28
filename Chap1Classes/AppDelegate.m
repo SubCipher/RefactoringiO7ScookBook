@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "Person.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-      
+    
+    UIViewController* vc = [[UIViewController alloc]initWithNibName:nil bundle:nil];
+    self.window.rootViewController = vc;
+    self.window.backgroundColor = [UIColor greenColor]; [self.window makeKeyAndVisible];
+    
+    Person *iOSdev = [[Person alloc]init];
+    iOSdev.firstName = @"k";
+    iOSdev.lastName = @"picart";
+    NSLog(@"your iOSdev name is %@ %@",iOSdev.firstName, iOSdev.lastName);
+    
      return YES;
 }
 
