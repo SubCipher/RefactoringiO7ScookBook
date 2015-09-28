@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "Person.h"
 
 @interface AppDelegate ()
 
@@ -17,17 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    Person *person = [[Person alloc]init];
-    //person.firstName = @"Steve";
-   // person.lastName = @"jobs";
-    
-    [person walkAtKilometersPerHour:3.0f];
-    [person runAt10KilometersPerHour];
-    
-    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisble];
-    
+      
      return YES;
 }
 

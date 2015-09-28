@@ -7,11 +7,23 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
 
 @interface Person : NSObject
 
+
+
+
 @property (nonatomic, copy)NSString *firstName;
 @property (nonatomic, copy)NSString *lastName;
+@property (nonatomic,assign)CGFloat currentHeight;
+
+
+
++(CGFloat)maximumHeightIncentimeters;
++(CGFloat)minimumHeightIncentimeters;
+-(NSString *)WalkWithThisPerson:(NSString *)firstName lastName:(NSString *)lastName;
+
 
 
 -(void)walkAtKilometersPerHour:(CGFloat)paramSpeedKilometersPerHour;
