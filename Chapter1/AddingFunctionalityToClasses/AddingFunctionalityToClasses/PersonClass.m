@@ -1,28 +1,29 @@
 //
 //  Person.m
-//  Chap1Classes
+//  AddingFunctionalityToClasses
 //
-//  Created by Krishna Picart on 9/27/15.
-//  Copyright © 2015 stepwisedesigns. All rights reserved.
+//  Created by MacMan on 9/28/15.
+//  Copyright © 2015 MacManApp. All rights reserved.
 //
 
-#import "Person.h"
+#import "PersonClass.h"
 
-@implementation Person
+@implementation PersonClass
 
-
-+(CGFloat)maximumHeightInCentimers{
+//create a class
++(CGFloat)maximumHeightInCentimeters{
+    
     return 250.0f;
     
 }
 
-+(CGFloat)minimumHeightInCentimers{
++(CGFloat)minimumHeightInCentimeters{
     
     return 40.0f;
 }
 
 -(void)walkAtKilometersPerHour:(CGFloat)paramSpeedKilometersPerHour{
-
+    
 }
 
 -(void)runAt10KilometersPerHour{
@@ -32,6 +33,7 @@
 -(void)singSong:(NSData *)paramSongData loudly:(BOOL)paramLoudly{
     
 }
+
 
 
 @end

@@ -14,7 +14,7 @@
 		E21D505F1BB8B634000B7AB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21D505D1BB8B634000B7AB7 /* LaunchScreen.storyboard */; };
 		E21D506A1BB8B634000B7AB7 /* Chap1ClassesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E21D50691BB8B634000B7AB7 /* Chap1ClassesTests.m */; };
 		E21D50751BB8B634000B7AB7 /* Chap1ClassesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E21D50741BB8B634000B7AB7 /* Chap1ClassesUITests.m */; };
-		E21D50841BB8B671000B7AB7 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E21D50831BB8B671000B7AB7 /* Person.m */; };
+		E21D50841BB8B671000B7AB7 /* PersonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E21D50831BB8B671000B7AB7 /* PersonClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		E21D50701BB8B634000B7AB7 /* Chap1ClassesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chap1ClassesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21D50741BB8B634000B7AB7 /* Chap1ClassesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chap1ClassesUITests.m; sourceTree = "<group>"; };
 		E21D50761BB8B634000B7AB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E21D50821BB8B671000B7AB7 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		E21D50831BB8B671000B7AB7 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E21D50821BB8B671000B7AB7 /* PersonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonClass.h; sourceTree = "<group>"; };
+		E21D50831BB8B671000B7AB7 /* PersonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 				E21D50521BB8B634000B7AB7 /* AppDelegate.h */,
 				E21D50531BB8B634000B7AB7 /* AppDelegate.m */,
 				E21D50581BB8B634000B7AB7 /* Main.storyboard */,
-				E21D50821BB8B671000B7AB7 /* Person.h */,
-				E21D50831BB8B671000B7AB7 /* Person.m */,
+				E21D50821BB8B671000B7AB7 /* PersonClass.h */,
+				E21D50831BB8B671000B7AB7 /* PersonClass.m */,
 				E21D505B1BB8B634000B7AB7 /* Assets.xcassets */,
 				E21D505D1BB8B634000B7AB7 /* LaunchScreen.storyboard */,
 				E21D50601BB8B634000B7AB7 /* Info.plist */,
@@ -270,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E21D50841BB8B671000B7AB7 /* Person.m in Sources */,
+				E21D50841BB8B671000B7AB7 /* PersonClass.m in Sources */,
 				E21D50541BB8B634000B7AB7 /* AppDelegate.m in Sources */,
 				E21D50511BB8B634000B7AB7 /* main.m in Sources */,
 			);

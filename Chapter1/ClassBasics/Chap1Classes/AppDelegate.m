@@ -7,24 +7,29 @@
 //
 
 #import "AppDelegate.h"
-#import "Person.h"
+#import "PersonClass.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    //create an instance of Person, you can give it any name you want
+    PersonClass *instanceOfpersonClass= [[PersonClass alloc]init];
+    
+    //assign value to firstName and lastName ivar
+    instanceOfpersonClass.firstName = @"k";
+    instanceOfpersonClass.lastName = @"picart";
+    
+    //display the result on the screen using the dot notation to call
+    //function within the class
+    NSLog(@"your iOSdev name is %@ %@",instanceOfpersonClass.firstName, instanceOfpersonClass.lastName);
     
     UIViewController* vc = [[UIViewController alloc]initWithNibName:nil bundle:nil];
     self.window.rootViewController = vc;
     self.window.backgroundColor = [UIColor greenColor]; [self.window makeKeyAndVisible];
-    
-    Person *iOSdev = [[Person alloc]init];
-    iOSdev.firstName = @"k";
-    iOSdev.lastName = @"picart";
-    NSLog(@"your iOSdev name is %@ %@",iOSdev.firstName, iOSdev.lastName);
     
      return YES;
 }
