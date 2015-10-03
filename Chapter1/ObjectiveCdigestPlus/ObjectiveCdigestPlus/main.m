@@ -13,7 +13,7 @@ int main(int argc, char * argv[]) {
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
         
-                     //tryobjective-C cheat sheet
+        {    //tryobjective-C cheat sheet
                 //output a basic string using NSLog
                 NSLog(@"Hello, Mr. Higgie.");
                 
@@ -327,5 +327,5 @@ int main(int argc, char * argv[]) {
                 
             }
         }
-        
+}
 
